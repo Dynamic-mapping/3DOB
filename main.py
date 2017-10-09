@@ -3,11 +3,11 @@ import sys
 import tensorflow as tf
 from parameters import Param
 
-from 3dob.model.model_01 import Net
+from src.model.model import Net
 
 
 # Obtain parameters
-args = Param
+args = Param()
 
 os.environ["CUDA_VISIBLE_DEVICES"]="1"
 
